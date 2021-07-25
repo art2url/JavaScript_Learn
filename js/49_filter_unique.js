@@ -29,12 +29,3 @@ let strings = ["кришна", "кришна", "харя", "харя",
   "харя", "харя", "кришна", "кришна", ":-O"
 ];
 alert(unique(strings));
-
-
-let s = "javascriptloops";
-let arr = s.split('');
-console.log(arr);
-console.log(1+2);
-alert(arr);
-
-
