@@ -13,7 +13,7 @@ let admin = {name: "Bob"};
 for (let key in user){
     console.log(key); // вывод всех ключей
 } 
-// for..of - перебор массивов, 
+// for..of - перебор массивов 
 // for..in - перебор ключей в объекте
 
 let codes = {
@@ -22,6 +22,20 @@ let codes = {
     "44": "England",
     "1": "USA"
 };
+
 for (let code in codes){
     console.log(code);
 } // 1,41,44,49 целочисленные идут по порядку
+
+
+// Method
+let John = {
+    name: 'John',
+    sayHi() {
+        console.log(this.name + ' say: Hi!');
+    }
+};
+// user1.sayHi = function(){
+//     console.log('Hi!');
+// }
+John.sayHi();
