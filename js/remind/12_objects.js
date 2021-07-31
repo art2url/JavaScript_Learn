@@ -1,4 +1,4 @@
-12_objects.jsconst user = {
+const user = {
     name: "James",
     age: 35,
     "Bonnier s": true
