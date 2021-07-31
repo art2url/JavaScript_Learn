@@ -19,7 +19,12 @@
 // function square(num){
 //     return num ** 2;
 // }
-var square = function(num){
-    return num ** 2;
-}
-console.log(square(25)); 
+
+// var square = function(num){
+//     return num ** 2;
+// }
+// console.log(square(25)); 
+
+
+console.log(a);
+var a = 2;
