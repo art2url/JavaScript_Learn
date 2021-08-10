@@ -63,7 +63,13 @@
 // console.log(0 == {}); //false
 // console.log(0 == null); //false
 
-var bar = null;
-console.log(typeof bar === "object");
+// var bar = null;
+// console.log(typeof bar === "object");
 
-console.log(Array.isArray(bar));
+// console.log(Array.isArray(bar));
+
+function num(){
+    var n = 12;
+    return n
+}
+console.log(print(num.n))
