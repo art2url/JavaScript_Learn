@@ -1,5 +1,5 @@
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
   -webkit-font-smootning: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -12,7 +12,6 @@ body {
 .logo, .contacts {
   display: inline-block;
 }
-
 
 .contacts__phone {
   font-weight: bold;
@@ -30,4 +29,31 @@ body {
 .header {
   height: 75px;
   background: #2b2b2b;
+}
+
+.desc__image {
+  width: 930px;
+  height: 400px;
+  background: url('../img/decor/mountains.jpg') center center no-repeat #ccc;
+}
+
+.reviews__avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.reviews__text {
+  display: inline-block;
+  width: 800px;
+}
+
+.reviews__list {
+  list-style: none;
+}
+
+.reviews__item {
+  border-bottom: 1px solid black;
 }
