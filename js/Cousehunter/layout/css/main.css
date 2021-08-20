@@ -4,6 +4,12 @@
   clear: both;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   -webkit-font-smootning: antialiased;
@@ -43,14 +49,26 @@ body {
   width: 50%;
 }
 
-.header__left {
-  margin-top: 8px;
-}
-
 .header__right {
   text-align: right;
   margin-top: 14px;
   margin-bottom: 14px;
+}
+
+.header__left {
+  margin-top: 8px;
+}
+
+.breadcrumbs__item {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.breadcrumbs_item-link {
+  font-size: 14px;
+  font-weight:  300;
+  font-style: italic;
+  color: #2b2b2b;
 }
 
 .desc__image {
