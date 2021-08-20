@@ -28,7 +28,24 @@ body {
 
 .header {
   height: 75px;
-  background: #2b2b2b;
+  background: #2b2b2b; 
+  position: relative;
+}
+
+.header .container {
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  left: 10px;
+  top: 10px
+}
+
+.contacts {
+  position: absolute;
+  right: 10px;
+  top: 16px
 }
 
 .desc__image {
