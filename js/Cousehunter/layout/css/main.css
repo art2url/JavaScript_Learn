@@ -117,14 +117,6 @@ body {
     font-weight: 600;
 }
 
-.reviews__avatar {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    overflow: hidden;
-    display: inline-block;
-}
-
 .pagination {
     text-align: center;
 }
@@ -166,9 +158,17 @@ body {
     color: #fff;
 }
 
+.reviews__avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+}
+
 .reviews__text {
-    display: inline-block;
     width: 800px;
+    float: left;
 }
 
 .reviews__list {
