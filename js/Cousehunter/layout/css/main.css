@@ -1,145 +1,198 @@
 .clearfix:after {
-  content:"";
-  display: block;
-  clear: both;
+    content: "";
+    display: block;
+    clear: both;
 }
 
 ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
-  -webkit-font-smootning: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smootning: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .container {
-  margin: 0 auto;
-  width: 1060px;
- 
+    margin: 0 auto;
+    width: 1060px;
 }
 
-.logo, .contacts {
-  display: inline-block;
+.logo,
+.contacts {
+    display: inline-block;
 }
 
 .contacts__phone {
-  font-weight: bold;
-  font-size: 21px;
-  color: #fff;
-  text-decoration: none;
+    font-weight: bold;
+    font-size: 21px;
+    color: #fff;
+    text-decoration: none;
 }
 
 .contacts__desc {
-  color: rgba(255, 255, 255, .7);
-  font-size: 14px;
-  font-weight: bold;
+    color: rgba(255, 255, 255, .7);
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .header {
-  background: #2b2b2b; 
-  position: relative;
+    background: #2b2b2b;
+    position: relative;
 }
 
-.header__right, .header__left {
-  float: left;
-  width: 50%;
+.header__right,
+.header__left {
+    float: left;
+    width: 50%;
 }
 
 .header__right {
-  text-align: right;
-  margin-top: 14px;
-  margin-bottom: 14px;
+    text-align: right;
+    margin-top: 14px;
+    margin-bottom: 14px;
 }
 
 .header__left {
-  margin-top: 8px;
+    margin-top: 8px;
 }
 
 .content {
-  float: left;
-  width: 880px;
+    float: left;
+    width: 880px;
 }
 
 .breadcrumbs {
-  margin-top: 24px;
-  margin-bottom: 24px;
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
 
 .breadcrumbs__item {
-  display: inline-block;
-  vertical-align: middle;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .breadcrumbs__item:after {
-  content: "/";
-  display: inline-block;
-  color: #221f1f;
-  opacity: 0.3;
+    content: "/";
+    display: inline-block;
+    color: #221f1f;
+    opacity: 0.3;
 }
 
 .breadcrumbs__item:last-child:after {
-  display: none;
+    display: none;
 }
 
 .breadcrumbs_item-link {
-  font-size: 14px;
-  font-weight:  300;
-  font-style: normal;
-  color: #E13700;
-  
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    color: #b24930;
 }
 
 .breadcrumbs__item-link_active {
-  color: #221f1f;
-  opacity: 0.3;
-  text-decoration: none;
- 
+    color: #221f1f;
+    opacity: 0.3;
+    text-decoration: none;
 }
 
 .desc__image {
-  width: 880px;
-  height: 354px;
-  background: url('../img/decor/mountains.jpg');
-  background-repeat: no-repeat;
-  position: relative;
+    width: 880px;
+    height: 354px;
+    background: url('../img/decor/mountains.jpg');
+    background-repeat: no-repeat;
+    position: relative;
 }
 
 .desc__text {
-  top: 60px;
-  left: 60px;
-  max-width: 650px;
-  position: absolute;
-  color: #fff;
-  font-size: 52px;
-  font-weight: 600;
+    top: 60px;
+    left: 60px;
+    max-width: 650px;
+    position: absolute;
+    color: #fff;
+    font-size: 52px;
+    font-weight: 600;
 }
 
 .reviews__avatar {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  overflow: hidden;
-  display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.pagination {
+    text-align: center;
+}
+
+.pagination__display,
+.pagination__controls {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.pagination__display {
+    font-size: 14px;
+    font-weight: 300;
+    color: #656464;
+    margin-right: 20px;
+}
+
+.pagination__btn,
+.pagination__list,
+.pagination__item {
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+.pagination__page {
+    display: block;
+    padding: 7px 0px;
+    width: 25px;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+.pagination__page-active {
+    background: #b24930;
+    color: #fff;
 }
 
 .reviews__text {
-  display: inline-block;
-  width: 800px;
+    display: inline-block;
+    width: 800px;
 }
 
 .reviews__list {
-  list-style: none;
+    list-style: none;
 }
 
 .reviews__item {
-  border-bottom: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.desc__info p {
+    margin-bottom: 20px;
+}
+
+.desc__info ul {
+    list-style: disc;
+    list-style-position: inside;
+}
+
+.desc__info li {
+    margin-bottom: 10px;
 }
 
 .nav {
-  float: left;
-  width: 180px;
+    float: left;
+    width: 180px;
 }
