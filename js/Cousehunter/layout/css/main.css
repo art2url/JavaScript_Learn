@@ -59,6 +59,11 @@ body {
   margin-top: 8px;
 }
 
+.content {
+  float: left;
+  width: 880px;
+}
+
 .breadcrumbs {
   margin-top: 24px;
   margin-bottom: 24px;
@@ -98,7 +103,19 @@ body {
 .desc__image {
   width: 880px;
   height: 354px;
-  background: url('../img/decor/mountains.jpg') center center no-repeat #ccc;
+  background: url('../img/decor/mountains.jpg');
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.desc__text {
+  top: 60px;
+  left: 60px;
+  max-width: 650px;
+  position: absolute;
+  color: #fff;
+  font-size: 52px;
+  font-weight: 600;
 }
 
 .reviews__avatar {
@@ -120,4 +137,9 @@ body {
 
 .reviews__item {
   border-bottom: 1px solid black;
+}
+
+.nav {
+  float: left;
+  width: 180px;
 }
