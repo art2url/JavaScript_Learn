@@ -205,17 +205,45 @@ body {
 
 .nav {
     float: left;
-    width: 180px;
-    margin-top: 50px;
+    width: 170px;
+    margin-left: 10px;
+    padding-top: 10px;
 }
 
 .nav__icon {
-    background: url('../img/icons/menu/direction.png') 0 0 no-repeat;
-    width: 24px;
-    height: 16px;
     display: inline-block;
     vertical-align: middle;
     margin-right: 10px;
+}
+
+.nav__icon_direction {
+    background: url('../img/icons/menu/direction.png') 0 0 no-repeat;
+    width: 24px;
+    height: 16px;
+}
+
+.nav__icon_plane {
+    background: url('../img/icons/menu/plain.png') 0 0 no-repeat;
+    width: 24px;
+    height: 18px;
+}
+
+.nav__icon_star {
+    background: url('../img/icons/menu/feed.png') 0 0 no-repeat;
+    width: 24px;
+    height: 18px;
+}
+
+.nav__link:hover .nav__icon_direction {
+    background-image: url('../img/icons/menu/direction-hover.png');
+}
+
+.nav__link:hover .nav__icon_plane {
+    background-image: url('../img/icons/menu/plain-hover.png');
+}
+
+.nav__link:hover .nav__icon_star {
+    background-image: url('../img/icons/menu/feed-hover.png');
 }
 
 .nav__link {
@@ -223,8 +251,7 @@ body {
 }
 
 .nav__item {
-    margin-bottom: 20px;
-    margin-left: 30px;
+    margin-bottom: 26px;
 }
 
 .nav__text {
@@ -234,8 +261,14 @@ body {
     font-size: 12px;
     text-transform: uppercase;
     color: #b24930;
-    text-decoration: none;
-    max-width: 110px;
+}
+
+.nav__list {
+    padding-left: 40px;
+}
+
+.reviews__item:last-child .reviews__item-wrap {
+    border-bottom: initial;
 }
 
 .nav__link:hover .nav__text,
@@ -243,7 +276,6 @@ body {
     color: #2b2b2b;
 }
 
-.nav__link:hover .nav__icon,
 .nav__link_active .nav__icon {
-    background-image: url('../img/icons/menu/direction-hover.png');
+    background-image: url('../img/icons/menu/plain-hover.png');
 }
