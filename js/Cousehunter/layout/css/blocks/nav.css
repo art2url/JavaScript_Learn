@@ -1,0 +1,75 @@
+.nav {
+    float: left;
+    width: 170px;
+    margin-left: 10px;
+}
+
+.nav__icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.nav__icon_direction {
+    background: url('../../img/icons/menu/direction.png') 0 0 no-repeat;
+    width: 24px;
+    height: 16px;
+}
+
+.nav__icon_plane {
+    background: url('../../img/icons/menu/plain.png') 0 0 no-repeat;
+    width: 24px;
+    height: 18px;
+}
+
+.nav__icon_star {
+    background: url('../../img/icons/menu/feed.png') 0 0 no-repeat;
+    width: 24px;
+    height: 18px;
+}
+
+.nav__link:hover .nav__icon_direction {
+    background-image: url('../../img/icons/menu/direction-hover.png');
+}
+
+.nav__link:hover .nav__icon_plane {
+    background-image: url('../../img/icons/menu/plain-hover.png');
+}
+
+.nav__link:hover .nav__icon_star {
+    background-image: url('../../img/icons/menu/feed-hover.png');
+}
+
+.nav__link {
+    text-decoration: none;
+}
+
+.nav__item {
+    margin-bottom: 26px;
+}
+
+.nav__text {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #b24930;
+}
+
+.nav__list {
+    padding-left: 40px;
+}
+
+.reviews__item:last-child .reviews__item-wrap {
+    border-bottom: initial;
+}
+
+.nav__link:hover .nav__text,
+.nav__link_active .nav__text {
+    color: #2b2b2b;
+}
+
+.nav__link_active .nav__icon {
+    background-image: url('../../img/icons/menu/plain-hover.png');
+}

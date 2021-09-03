@@ -1,0 +1,93 @@
+.footer {
+    padding-top: 9px;
+    margin-top: -77px;
+    background: #2d2d2d;
+    min-width: 1100px;
+    padding: 10px 0;
+}
+
+.footer__text {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.footer__text a {
+    color: #fff;
+    font-weight: bold;
+}
+
+.footer__col_mid {
+    text-align: center;
+}
+
+.socials {
+    display: inline-block;
+    text-align: left;
+}
+
+.socials__title {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.socials__list {
+    float: right
+}
+
+.socials__item {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.socials__item:last-child {
+    margin-right: 0;
+}
+
+.socials__link {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, .7);
+    display: block;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.socials__link:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.socials__link_fb {
+    background-image: url('../../img/icons/socials/fb.png')
+}
+
+.socials__link_tw {
+    background-image: url('../../img/icons/socials/twitter.png')
+}
+
+.socials__link_mail {
+    background-image: url('../../img/icons/socials/mail.png')
+}
+
+.footer__col_last {
+    text-align: right;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.footer .container {
+    font-size: 0;
+}
+
+.footer .container * {
+    font-size: 14px;
+}
+
+.footer__col {
+    display: inline-block;
+    width: 33.3%;
+    vertical-align: middle;
+    color: #fff;
+}

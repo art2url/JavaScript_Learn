@@ -1,0 +1,41 @@
+body,
+html {
+    height: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    -webkit-font-smootning: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1.42;
+    color: #221f1f;
+}
+
+.wrapper {
+    overflow: hidden;
+    min-width: 1100px;
+    min-height: 100%;
+}
+
+.wrapper:after {
+    content: "";
+    display: block;
+    min-height: 77px;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1060px;
+}
