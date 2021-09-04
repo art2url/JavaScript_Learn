@@ -14,7 +14,7 @@
 
 <body>
     <div class="wrapper">
-        <div class="header">
+        <header class="header">
             <div class="container clearfix">
                 <div class="header__left">
                     <a href="#" class="logo">
@@ -22,35 +22,36 @@
                     </a>
                 </div>
                 <div class="header__right">
-                    <div class="contacts">
+                    <address class="contacts">
                         <a href="tel:88005553535" class="contacts__phone">8 800 555-3535</a>
                         <div class="contacts__desc">24/7 Online</div>
-                    </div>
+                    </address>
                 </div>
             </div>
-        </div>
-        <ul class="breadcrumbs">
-            <div class="container clearfix">
-                <li class="breadcrumbs__item">
-                    <a href="#" class="breadcrumbs_item-link">Main</a>
-                </li>
-                <li class="breadcrumbs__item">
-                    <a href="#" class="breadcrumbs_item-link">List of roads</a>
-                </li>
-                <li class="breadcrumbs__item">
-                    <a href="#" class="breadcrumbs_item-link breadcrumbs__item-link_active">Roads</a>
-                </li>
-            </div>
-        </ul>
+        </header>
+        <nav class="breadcrumbs">
+            <ul class="breadcrumbs__list">
+                <div class="container clearfix">
+                    <li class="breadcrumbs__item">
+                        <a href="#" class="breadcrumbs_item-link">Main</a>
+                    </li>
+                    <li class="breadcrumbs__item">
+                        <a href="#" class="breadcrumbs_item-link">List of roads</a>
+                    </li>
+                    <li class="breadcrumbs__item">
+                        <a href="#" class="breadcrumbs_item-link breadcrumbs__item-link_active">Roads</a>
+                    </li>
+                </div>
+            </ul>
+        </nav>
         <div class="maincontent">
             <div class="container clearfix">
-                <div class="content">
-
-                    <div class="desc">
+                <main class="content">
+                    <section class="desc">
                         <div class="desc__image">
                             <div class="desc__text">"Mountains" road</div>
                         </div>
-                    </div>
+                    </section>
                     <div class="desc__title">
                         <div class="desc__title-name">
                             Camp "Tourist"
@@ -111,7 +112,7 @@
                             <a href="#" class="pagination__btn"> &gt </a>
                         </div>
                     </div>
-                    <div class="reviews">
+                    <section class="reviews">
                         <h1 class="title">Testimonials</h1>
                         <ul class="reviews__list">
                             <li class="reviews__item clearfix">
@@ -119,13 +120,13 @@
                                     <div class="reviews__avatar">
                                         <img src="./img/content/alex.png" alt="" class="reviews__avatar-pic">
                                     </div>
-                                    <div class="reviews__text">
+                                    <article class="reviews__text">
                                         <div class="reviews__data">12.10.2021</div>
                                         <div class="reviews__name">Alex Petrov</div>
                                         <div class="reviews__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
                                             commodo consequat.
                                         </div>
-                                    </div>
+                                    </article>
                                 </div>
                             </li>
                             <li class="reviews__item clearfix">
@@ -133,13 +134,13 @@
                                     <div class="reviews__avatar">
                                         <img src="./img/content/alex.png" alt="" class="reviews__avatar-pic">
                                     </div>
-                                    <div class="reviews__text">
+                                    <article class="reviews__text">
                                         <div class="reviews__data">12.10.2021</div>
                                         <div class="reviews__name">Alex Petrov</div>
                                         <div class="reviews__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
                                             commodo consequat.
                                         </div>
-                                    </div>
+                                    </article>
                                 </div>
                             </li>
                             <li class="reviews__item clearfix">
@@ -147,40 +148,43 @@
                                     <div class="reviews__avatar">
                                         <img src="./img/content/alex.png" alt="" class="reviews__avatar-pic">
                                     </div>
-                                    <div class="reviews__text">
+                                    <article class="reviews__text">
                                         <div class="reviews__data">12.10.2021</div>
                                         <div class="reviews__name">Alex Petrov</div>
                                         <div class="reviews__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
                                             commodo consequat.
                                         </div>
-                                    </div>
+                                    </article>
                                 </div>
                             </li>
                         </ul>
-                    </div>
-                </div>
-                <div class="nav">
-                    <ul class="nav__list">
-                        <li class="nav__item">
-                            <a href="#" class="nav__link">
-                                <div class="nav__icon nav__icon_direction"></div>
-                                <div class="nav__text">Main</div>
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#" class="nav__link nav__link_active">
-                                <div class="nav__icon nav__icon_plane"></div>
-                                <div class="nav__text">Road</div>
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#" class="nav__link">
-                                <div class="nav__icon nav__icon_star"></div>
-                                <div class="nav__text">About us</div>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+                    </section>
+                </main>
+                <aside class="sidebar">
+                    <nav class="nav">
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a href="#" class="nav__link">
+                                    <div class="nav__icon nav__icon_direction"></div>
+                                    <div class="nav__text">Main</div>
+                                </a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#" class="nav__link nav__link_active">
+                                    <div class="nav__icon nav__icon_plane"></div>
+                                    <div class="nav__text">Road</div>
+                                </a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#" class="nav__link">
+                                    <div class="nav__icon nav__icon_star"></div>
+                                    <div class="nav__text">About us</div>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </aside>
+
             </div>
         </div>
     </div>
