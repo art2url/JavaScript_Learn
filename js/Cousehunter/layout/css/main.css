@@ -43,6 +43,7 @@
     height: 100px;
     background: tomato;
     animation: roll 2s;
+    animation-fill-mode: forwards;
 }
 
 @keyframes roll {
@@ -50,7 +51,7 @@
         transform: translateX(0px);
     }
     50% {
-        transform: rotate(180deg);
+        transform: translateX(250px) rotate(180deg);
     }
     100% {
         transform: translateX(500px);
