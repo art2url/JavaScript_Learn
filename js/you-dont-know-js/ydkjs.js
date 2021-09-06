@@ -10,9 +10,11 @@ function overallPhonePrice() {
 // overallPhonePrice().toFixed(2);
 
 
-if (balance > minBalance) {
+while (balance > minBalance) {
     balance = balance - overallPhonePrice();
     console.log(+(balance.toFixed(2)));
-} else {
-    console.log("You cannot buy phone");
+    if (balance < minBalance) {
+        console.log("You cannot buy phone");
+        break;
+    }
 }
