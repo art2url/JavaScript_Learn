@@ -16,7 +16,7 @@ function strCount(str, letter) {
 
 function strCount(str, letter) {
     let count = 0;
-    for (let char of str) {
+    for (let i = 0; i < str.length; i++) {
         if (str.charAt(i) == letter) {
             count += 1;
         }
