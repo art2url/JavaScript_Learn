@@ -11,4 +11,6 @@ function usdcny(usd) {
     return (b.toFixed(2) + " Chinese Yuan");
 }
 
-usdcny(15)
+function usdcny(usd) {
+    return (usd * 6.75).toFixed(2) + " Chinese Yuan";
+}
