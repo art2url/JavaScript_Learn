@@ -1,5 +1,6 @@
 // Write the definition of the function "say" 
-// such that calling this: say("Hello")("World")
+// such that calling this: 
+// say("Hello")("World")
 
 var say = function(string1) {
     return function(string2) {
