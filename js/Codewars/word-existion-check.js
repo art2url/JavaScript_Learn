@@ -22,7 +22,14 @@
 // if the greeting is a subset of word (Hallowen can pass the test)
 // function should be case insensitive to pass the tests
 
-// solution is here..
+function validateHello(greetings) {
+    let arrGreetings = ['hello', 'ciao', 'salut', 'hallo', 'hola', 'ahoj', 'czesc'];
+    let word = greetings.replace(/[^a-zA-Z ]/g, "").toLowerCase().split(' ');
+    let result = arrGreetings.filter(i => word.includes(i));
+    result.toString() !== '' ? result = true : result = false;
+    return result;
+}
+validateHello('HOmbrE, QUE: HalLo: TRes YoU? TSchusS You wiE LA: wiE doiNg TsChuSs BieN WIE. visTa aRE LA aRE: VIsta')
 
 // for one word
 function validateHello(greetings) {
