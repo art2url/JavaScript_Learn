@@ -9,7 +9,7 @@
 
 function squareArea(A) {
     let radius = A / (2 * Math.PI * (90 / 360));
-    let area = Math.pow(radius, 2)
-    return Number(area.toFixed(2))
+    let area = Math.pow(radius, 2);
+    return Number(area.toFixed(2));
 }
 squareArea(2)
